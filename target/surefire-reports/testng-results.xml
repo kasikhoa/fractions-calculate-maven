@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="14" passed="14" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-06T13:28:17 ICT" name="Surefire suite" finished-at="2023-03-06T13:28:17 ICT" duration-ms="51">
+    <groups>
+    </groups>
+    <test started-at="2023-03-06T13:28:17 ICT" name="Surefire test" finished-at="2023-03-06T13:28:17 ICT" duration-ms="51">
+      <class name="com.khoanda.fraction.test.maven.FractionCalculatorTest">
+        <test-method signature="testAddition(com.khoanda.fractions.calculate.maven.Fraction,com.khoanda.fractions.calculate.maven.Fraction,java.lang.String)[pri:0, instance:com.khoanda.fraction.test.maven.FractionCalculatorTest@b62fe6d]" started-at="2023-03-06T13:28:17 ICT" name="testAddition" data-provider="addFractions" finished-at="2023-03-06T13:28:17 ICT" duration-ms="9" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.khoanda.fractions.calculate.maven.Fraction@61df66b6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[com.khoanda.fractions.calculate.maven.Fraction@50eac852]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[5/6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddition -->
+        <test-method signature="testAddition(com.khoanda.fractions.calculate.maven.Fraction,com.khoanda.fractions.calculate.maven.Fraction,java.lang.String)[pri:0, instance:com.khoanda.fraction.test.maven.FractionCalculatorTest@b62fe6d]" started-at="2023-03-06T13:28:17 ICT" name="testAddition" data-provider="addFractions" finished-at="2023-03-06T13:28:17 ICT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.khoanda.fractions.calculate.maven.Fraction@384ad17b]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[com.khoanda.fractions.calculate.maven.Fraction@61862a7f]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[23/20]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddition -->
+        <test-method signature="testAddition(com.khoanda.fractions.calculate.maven.Fraction,com.khoanda.fractions.calculate.maven.Fraction,java.lang.String)[pri:0, instance:com.khoanda.fraction.test.maven.FractionCalculatorTest@b62fe6d]" started-at="2023-03-06T13:28:17 ICT" name="testAddition" data-provider="addFractions" finished-at="2023-03-06T13:28:17 ICT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.khoanda.fractions.calculate.maven.Fraction@7334aada]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[com.khoanda.fractions.calculate.maven.Fraction@1d9b7cce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1/2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddition -->
+        <test-method signature="testDivInvalidFractions(com.khoanda.fractions.calculate.maven.Fraction,com.khoanda.fractions.calculate.maven.Fraction)[pri:0, instance:com.khoanda.fraction.test.maven.FractionCalculatorTest@b62fe6d]" started-at="2023-03-06T13:28:17 ICT" name="testDivInvalidFractions" data-provider="invalidDivFractions" finished-at="2023-03-06T13:28:17 ICT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.khoanda.fractions.calculate.maven.Fraction@42e99e4a]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[com.khoanda.fractions.calculate.maven.Fraction@14dd9eb7]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Denominator cannot be zero]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Denominator cannot be zero
+at com.khoanda.fractions.calculate.maven.Fraction.<init>(Fraction.java:34)
+at com.khoanda.fractions.calculate.maven.Fraction.div(Fraction.java:61)
+at com.khoanda.fraction.test.maven.FractionCalculatorTest.testDivInvalidFractions(FractionCalculatorTest.java:89)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:151)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:111)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:98)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:155)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivInvalidFractions -->
+        <test-method signature="testDivInvalidFractions(com.khoanda.fractions.calculate.maven.Fraction,com.khoanda.fractions.calculate.maven.Fraction)[pri:0, instance:com.khoanda.fraction.test.maven.FractionCalculatorTest@b62fe6d]" started-at="2023-03-06T13:28:17 ICT" name="testDivInvalidFractions" data-provider="invalidDivFractions" finished-at="2023-03-06T13:28:17 ICT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.khoanda.fractions.calculate.maven.Fraction@62150f9e]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[com.khoanda.fractions.calculate.maven.Fraction@1a451d4d]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Denominator cannot be zero]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Denominator cannot be zero
+at com.khoanda.fractions.calculate.maven.Fraction.<init>(Fraction.java:34)
+at com.khoanda.fractions.calculate.maven.Fraction.div(Fraction.java:61)
+at com.khoanda.fraction.test.maven.FractionCalculatorTest.testDivInvalidFractions(FractionCalculatorTest.java:89)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:151)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:111)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:98)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:155)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivInvalidFractions -->
+        <test-method signature="testDivision(com.khoanda.fractions.calculate.maven.Fraction,com.khoanda.fractions.calculate.maven.Fraction,java.lang.String)[pri:0, instance:com.khoanda.fraction.test.maven.FractionCalculatorTest@b62fe6d]" started-at="2023-03-06T13:28:17 ICT" name="testDivision" data-provider="divFractions" finished-at="2023-03-06T13:28:17 ICT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.khoanda.fractions.calculate.maven.Fraction@15ff3e9e]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[com.khoanda.fractions.calculate.maven.Fraction@5fdcaa40]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3/2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivision -->
+        <test-method signature="testDivision(com.khoanda.fractions.calculate.maven.Fraction,com.khoanda.fractions.calculate.maven.Fraction,java.lang.String)[pri:0, instance:com.khoanda.fraction.test.maven.FractionCalculatorTest@b62fe6d]" started-at="2023-03-06T13:28:17 ICT" name="testDivision" data-provider="divFractions" finished-at="2023-03-06T13:28:17 ICT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.khoanda.fractions.calculate.maven.Fraction@5e0826e7]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[com.khoanda.fractions.calculate.maven.Fraction@32eff876]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[15/8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivision -->
+        <test-method signature="testDivision(com.khoanda.fractions.calculate.maven.Fraction,com.khoanda.fractions.calculate.maven.Fraction,java.lang.String)[pri:0, instance:com.khoanda.fraction.test.maven.FractionCalculatorTest@b62fe6d]" started-at="2023-03-06T13:28:17 ICT" name="testDivision" data-provider="divFractions" finished-at="2023-03-06T13:28:17 ICT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.khoanda.fractions.calculate.maven.Fraction@6e20b53a]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[com.khoanda.fractions.calculate.maven.Fraction@71809907]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0/1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivision -->
+        <test-method signature="testMultiplication(com.khoanda.fractions.calculate.maven.Fraction,com.khoanda.fractions.calculate.maven.Fraction,java.lang.String)[pri:0, instance:com.khoanda.fraction.test.maven.FractionCalculatorTest@b62fe6d]" started-at="2023-03-06T13:28:17 ICT" name="testMultiplication" data-provider="mulFractions" finished-at="2023-03-06T13:28:17 ICT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.khoanda.fractions.calculate.maven.Fraction@6aba2b86]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[com.khoanda.fractions.calculate.maven.Fraction@158da8e]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1/6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMultiplication -->
+        <test-method signature="testMultiplication(com.khoanda.fractions.calculate.maven.Fraction,com.khoanda.fractions.calculate.maven.Fraction,java.lang.String)[pri:0, instance:com.khoanda.fraction.test.maven.FractionCalculatorTest@b62fe6d]" started-at="2023-03-06T13:28:17 ICT" name="testMultiplication" data-provider="mulFractions" finished-at="2023-03-06T13:28:17 ICT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.khoanda.fractions.calculate.maven.Fraction@47af7f3d]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[com.khoanda.fractions.calculate.maven.Fraction@7c729a55]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3/10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMultiplication -->
+        <test-method signature="testMultiplication(com.khoanda.fractions.calculate.maven.Fraction,com.khoanda.fractions.calculate.maven.Fraction,java.lang.String)[pri:0, instance:com.khoanda.fraction.test.maven.FractionCalculatorTest@b62fe6d]" started-at="2023-03-06T13:28:17 ICT" name="testMultiplication" data-provider="mulFractions" finished-at="2023-03-06T13:28:17 ICT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.khoanda.fractions.calculate.maven.Fraction@661972b0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[com.khoanda.fractions.calculate.maven.Fraction@5af3afd9]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0/1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMultiplication -->
+        <test-method signature="testSubtraction(com.khoanda.fractions.calculate.maven.Fraction,com.khoanda.fractions.calculate.maven.Fraction,java.lang.String)[pri:0, instance:com.khoanda.fraction.test.maven.FractionCalculatorTest@b62fe6d]" started-at="2023-03-06T13:28:17 ICT" name="testSubtraction" data-provider="subFractions" finished-at="2023-03-06T13:28:17 ICT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.khoanda.fractions.calculate.maven.Fraction@44ebcd03]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[com.khoanda.fractions.calculate.maven.Fraction@694abbdc]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1/6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSubtraction -->
+        <test-method signature="testSubtraction(com.khoanda.fractions.calculate.maven.Fraction,com.khoanda.fractions.calculate.maven.Fraction,java.lang.String)[pri:0, instance:com.khoanda.fraction.test.maven.FractionCalculatorTest@b62fe6d]" started-at="2023-03-06T13:28:17 ICT" name="testSubtraction" data-provider="subFractions" finished-at="2023-03-06T13:28:17 ICT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.khoanda.fractions.calculate.maven.Fraction@4567f35d]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[com.khoanda.fractions.calculate.maven.Fraction@5ffead27]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[7/20]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSubtraction -->
+        <test-method signature="testSubtraction(com.khoanda.fractions.calculate.maven.Fraction,com.khoanda.fractions.calculate.maven.Fraction,java.lang.String)[pri:0, instance:com.khoanda.fraction.test.maven.FractionCalculatorTest@b62fe6d]" started-at="2023-03-06T13:28:17 ICT" name="testSubtraction" data-provider="subFractions" finished-at="2023-03-06T13:28:17 ICT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.khoanda.fractions.calculate.maven.Fraction@4f18837a]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[com.khoanda.fractions.calculate.maven.Fraction@359f7cdf]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-1/2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSubtraction -->
+      </class> <!-- com.khoanda.fraction.test.maven.FractionCalculatorTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
